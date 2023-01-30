@@ -186,7 +186,7 @@ class Deprecation
             $package
         );
 
-        @trigger_error($message, E_USER_DEPRECATED);
+        trigger_error($message, E_USER_DEPRECATED);
     }
 
     /**
